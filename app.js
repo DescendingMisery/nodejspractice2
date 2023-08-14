@@ -1,0 +1,31 @@
+const express = require('express');
+const path = require('path');
+
+const app = express();
+app.use(express.static('public'));//allowing ExpressJS to access and display CSS/JS files
+//main page
+app.get('/', function(req, res){
+    const htmlFilePath = path.join(__dirname, 'views', 'index.html');
+    res.sendFile(htmlFilePath);
+});
+//restaurants page
+app.get('/restaurants', function(req, res){
+    const htmlFilePath = path.join(__dirname, 'views','restaurants.html');
+    res.sendFile(htmlFilePath);
+});
+//recommend page
+app.get('/recommend', function(req,res){
+    const htmlFilePath = path.join(__dirname, 'views','recommend.html');
+    res.sendFile(htmlFilePath);
+});
+//confirm page
+app.get('/confirm', function(req,res){
+    const htmlFilePath = path.join(__dirname, 'views','confirm.html');
+    res.sendFile(htmlFilePath);
+});
+//about page
+app.get('/about', function(req,res){
+    const htmlFilePath = path.join(__dirname, 'views','about.html');
+    res.sendFile(htmlFilePath);
+});
+app.listen(3000);
