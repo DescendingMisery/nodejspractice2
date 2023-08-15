@@ -1,16 +1,1 @@
-[
-    {
-        "name": "Balls",
-        "address": "18217 Canyon East",
-        "cuisine": "Chinese",
-        "website": "https://yourmom.com",
-        "description": "Shit"
-    },
-    {
-        "name": "Nut",
-        "address": "13131 Canyon East Dr, 88901",
-        "cuisine": "Vietnamese",
-        "website": "https://verycool.com",
-        "description": "I like it"
-    }
-]
+[{"name":"Balls","address":"18217 Canyon East","cuisine":"Chinese","website":"https://yourmom.com","description":"Shit"},{"name":"Nut","address":"13131 Canyon East Dr, 88901","cuisine":"Vietnamese","website":"https://verycool.com","description":"I like it"},{"name":"Harris","address":"Harris Enjoyer, Harris Dr.","cuisine":"Harris","website":"https://harris.net","description":"Harris's stan"}]
