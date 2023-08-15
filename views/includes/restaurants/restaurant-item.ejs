@@ -1,0 +1,21 @@
+<li class="restaurant-item">
+    <article>
+      <h2>
+        <%= restaurant.name %>
+      </h2> <!--Restaurant Title-->
+      <div class="restaurant-meta">
+        <p>
+          <%= restaurant.cuisine %>
+        </p> <!--Restaurant Cuisine-->
+        <p>
+          <%= restaurant.address %>
+        </p> <!--Restaurant Address-->
+      </div>
+      <p>
+        <%= restaurant.description %> <!--Restaurant description-->
+      </p>
+      <div class="restaurant-actions">
+        <a href="<%= restaurant.website %>">View Website</a> <!--Restaurant Website-->
+      </div>
+    </article>
+  </li>
